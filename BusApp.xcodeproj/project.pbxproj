@@ -6,41 +6,71 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		17DFCCCB2CE54A960075D8A9 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 17DFCCCA2CE54A960075D8A9 /* Podfile */; };
+		1A536436E3A944260837EACC /* Pods_BusApp_BusAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA88A5D2F431F1C4CA579DC6 /* Pods_BusApp_BusAppUITests.framework */; };
+		3B379C955511BA4065D13F31 /* Pods_BusApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C06F4F75D9CEFFE481DA005 /* Pods_BusApp.framework */; };
+		FC8EB948918AA0F53DC2B9E7 /* Pods_BusAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBA3954F79703E379BFC1A3C /* Pods_BusAppTests.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
-		177CF9842CD3D99B001E9D4B /* PBXContainerItemProxy */ = {
+		17F90E8D2CE537D900E5B8CB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 177CF9612CD3D99A001E9D4B /* Project object */;
+			containerPortal = 17F90E6A2CE537D700E5B8CB /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 177CF9682CD3D99A001E9D4B;
+			remoteGlobalIDString = 17F90E712CE537D700E5B8CB;
 			remoteInfo = BusApp;
 		};
-		177CF98E2CD3D99B001E9D4B /* PBXContainerItemProxy */ = {
+		17F90E972CE537D900E5B8CB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 177CF9612CD3D99A001E9D4B /* Project object */;
+			containerPortal = 17F90E6A2CE537D700E5B8CB /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 177CF9682CD3D99A001E9D4B;
+			remoteGlobalIDString = 17F90E712CE537D700E5B8CB;
 			remoteInfo = BusApp;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		177CF9692CD3D99A001E9D4B /* BusApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BusApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		177CF9832CD3D99B001E9D4B /* BusAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BusAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		177CF98D2CD3D99B001E9D4B /* BusAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BusAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07ADE61B7E50CC84DB41CCC8 /* Pods-BusApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BusApp.debug.xcconfig"; path = "Target Support Files/Pods-BusApp/Pods-BusApp.debug.xcconfig"; sourceTree = "<group>"; };
+		0B6B8DF00D8F9D2F0471ED43 /* Pods-BusAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BusAppTests.debug.xcconfig"; path = "Target Support Files/Pods-BusAppTests/Pods-BusAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		17DFCCCA2CE54A960075D8A9 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		17F90E722CE537D700E5B8CB /* BusApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BusApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17F90E8C2CE537D900E5B8CB /* BusAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BusAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17F90E962CE537D900E5B8CB /* BusAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BusAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		23879E835D1BD6E171BAD96E /* Pods-BusApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BusApp.release.xcconfig"; path = "Target Support Files/Pods-BusApp/Pods-BusApp.release.xcconfig"; sourceTree = "<group>"; };
+		8C06F4F75D9CEFFE481DA005 /* Pods_BusApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BusApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5C6413E120483C130F3E2CB /* Pods-BusApp-BusAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BusApp-BusAppUITests.release.xcconfig"; path = "Target Support Files/Pods-BusApp-BusAppUITests/Pods-BusApp-BusAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A816B0D16E650AD004C399E5 /* Pods-BusAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BusAppTests.release.xcconfig"; path = "Target Support Files/Pods-BusAppTests/Pods-BusAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		CB189FD83C5CFCB19E603771 /* Pods-BusApp-BusAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BusApp-BusAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-BusApp-BusAppUITests/Pods-BusApp-BusAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FA88A5D2F431F1C4CA579DC6 /* Pods_BusApp_BusAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BusApp_BusAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBA3954F79703E379BFC1A3C /* Pods_BusAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BusAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		17F90E9E2CE537D900E5B8CB /* Exceptions for "BusApp" folder in "BusApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 17F90E712CE537D700E5B8CB /* BusApp */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		177CF96B2CD3D99A001E9D4B /* BusApp */ = {
+		17F90E742CE537D700E5B8CB /* BusApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				17F90E9E2CE537D900E5B8CB /* Exceptions for "BusApp" folder in "BusApp" target */,
+			);
 			path = BusApp;
 			sourceTree = "<group>";
 		};
-		177CF9862CD3D99B001E9D4B /* BusAppTests */ = {
+		17F90E8F2CE537D900E5B8CB /* BusAppTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = BusAppTests;
 			sourceTree = "<group>";
 		};
-		177CF9902CD3D99B001E9D4B /* BusAppUITests */ = {
+		17F90E992CE537D900E5B8CB /* BusAppUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = BusAppUITests;
 			sourceTree = "<group>";
@@ -48,182 +78,211 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		177CF9662CD3D99A001E9D4B /* Frameworks */ = {
+		17F90E6F2CE537D700E5B8CB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B379C955511BA4065D13F31 /* Pods_BusApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		177CF9802CD3D99B001E9D4B /* Frameworks */ = {
+		17F90E892CE537D900E5B8CB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC8EB948918AA0F53DC2B9E7 /* Pods_BusAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		177CF98A2CD3D99B001E9D4B /* Frameworks */ = {
+		17F90E932CE537D900E5B8CB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A536436E3A944260837EACC /* Pods_BusApp_BusAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		177CF9602CD3D99A001E9D4B = {
+		17F90E692CE537D700E5B8CB = {
 			isa = PBXGroup;
 			children = (
-				177CF96B2CD3D99A001E9D4B /* BusApp */,
-				177CF9862CD3D99B001E9D4B /* BusAppTests */,
-				177CF9902CD3D99B001E9D4B /* BusAppUITests */,
-				177CF96A2CD3D99A001E9D4B /* Products */,
+				17F90E742CE537D700E5B8CB /* BusApp */,
+				17F90E8F2CE537D900E5B8CB /* BusAppTests */,
+				17F90E992CE537D900E5B8CB /* BusAppUITests */,
+				17F90E732CE537D700E5B8CB /* Products */,
+				AB91A20ACE78C1B46DA52D6D /* Pods */,
+				17DFCCCA2CE54A960075D8A9 /* Podfile */,
+				D6E9C69F9AEEBE96BD77F931 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		177CF96A2CD3D99A001E9D4B /* Products */ = {
+		17F90E732CE537D700E5B8CB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				177CF9692CD3D99A001E9D4B /* BusApp.app */,
-				177CF9832CD3D99B001E9D4B /* BusAppTests.xctest */,
-				177CF98D2CD3D99B001E9D4B /* BusAppUITests.xctest */,
+				17F90E722CE537D700E5B8CB /* BusApp.app */,
+				17F90E8C2CE537D900E5B8CB /* BusAppTests.xctest */,
+				17F90E962CE537D900E5B8CB /* BusAppUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		AB91A20ACE78C1B46DA52D6D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				07ADE61B7E50CC84DB41CCC8 /* Pods-BusApp.debug.xcconfig */,
+				23879E835D1BD6E171BAD96E /* Pods-BusApp.release.xcconfig */,
+				CB189FD83C5CFCB19E603771 /* Pods-BusApp-BusAppUITests.debug.xcconfig */,
+				A5C6413E120483C130F3E2CB /* Pods-BusApp-BusAppUITests.release.xcconfig */,
+				0B6B8DF00D8F9D2F0471ED43 /* Pods-BusAppTests.debug.xcconfig */,
+				A816B0D16E650AD004C399E5 /* Pods-BusAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D6E9C69F9AEEBE96BD77F931 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C06F4F75D9CEFFE481DA005 /* Pods_BusApp.framework */,
+				FA88A5D2F431F1C4CA579DC6 /* Pods_BusApp_BusAppUITests.framework */,
+				FBA3954F79703E379BFC1A3C /* Pods_BusAppTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		177CF9682CD3D99A001E9D4B /* BusApp */ = {
+		17F90E712CE537D700E5B8CB /* BusApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 177CF9962CD3D99B001E9D4B /* Build configuration list for PBXNativeTarget "BusApp" */;
+			buildConfigurationList = 17F90E9F2CE537D900E5B8CB /* Build configuration list for PBXNativeTarget "BusApp" */;
 			buildPhases = (
-				177CF9652CD3D99A001E9D4B /* Sources */,
-				177CF9662CD3D99A001E9D4B /* Frameworks */,
-				177CF9672CD3D99A001E9D4B /* Resources */,
+				4626C5950663D23693D76ACD /* [CP] Check Pods Manifest.lock */,
+				17F90E6E2CE537D700E5B8CB /* Sources */,
+				17F90E6F2CE537D700E5B8CB /* Frameworks */,
+				17F90E702CE537D700E5B8CB /* Resources */,
+				CD6B3B151AC2D274532B7002 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				177CF96B2CD3D99A001E9D4B /* BusApp */,
+				17F90E742CE537D700E5B8CB /* BusApp */,
 			);
 			name = BusApp;
-			packageProductDependencies = (
-			);
 			productName = BusApp;
-			productReference = 177CF9692CD3D99A001E9D4B /* BusApp.app */;
+			productReference = 17F90E722CE537D700E5B8CB /* BusApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		177CF9822CD3D99B001E9D4B /* BusAppTests */ = {
+		17F90E8B2CE537D900E5B8CB /* BusAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 177CF99B2CD3D99B001E9D4B /* Build configuration list for PBXNativeTarget "BusAppTests" */;
+			buildConfigurationList = 17F90EA42CE537D900E5B8CB /* Build configuration list for PBXNativeTarget "BusAppTests" */;
 			buildPhases = (
-				177CF97F2CD3D99B001E9D4B /* Sources */,
-				177CF9802CD3D99B001E9D4B /* Frameworks */,
-				177CF9812CD3D99B001E9D4B /* Resources */,
+				92A9A9C462363D1451EA20B5 /* [CP] Check Pods Manifest.lock */,
+				17F90E882CE537D900E5B8CB /* Sources */,
+				17F90E892CE537D900E5B8CB /* Frameworks */,
+				17F90E8A2CE537D900E5B8CB /* Resources */,
+				B21D7CD5A63AC123E332827D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				177CF9852CD3D99B001E9D4B /* PBXTargetDependency */,
+				17F90E8E2CE537D900E5B8CB /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				177CF9862CD3D99B001E9D4B /* BusAppTests */,
+				17F90E8F2CE537D900E5B8CB /* BusAppTests */,
 			);
 			name = BusAppTests;
-			packageProductDependencies = (
-			);
 			productName = BusAppTests;
-			productReference = 177CF9832CD3D99B001E9D4B /* BusAppTests.xctest */;
+			productReference = 17F90E8C2CE537D900E5B8CB /* BusAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		177CF98C2CD3D99B001E9D4B /* BusAppUITests */ = {
+		17F90E952CE537D900E5B8CB /* BusAppUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 177CF99E2CD3D99B001E9D4B /* Build configuration list for PBXNativeTarget "BusAppUITests" */;
+			buildConfigurationList = 17F90EA72CE537D900E5B8CB /* Build configuration list for PBXNativeTarget "BusAppUITests" */;
 			buildPhases = (
-				177CF9892CD3D99B001E9D4B /* Sources */,
-				177CF98A2CD3D99B001E9D4B /* Frameworks */,
-				177CF98B2CD3D99B001E9D4B /* Resources */,
+				28B8D0BF8ACDAE54BCD960CE /* [CP] Check Pods Manifest.lock */,
+				17F90E922CE537D900E5B8CB /* Sources */,
+				17F90E932CE537D900E5B8CB /* Frameworks */,
+				17F90E942CE537D900E5B8CB /* Resources */,
+				B54A4407E39A5EBAC7CD8A58 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				177CF98F2CD3D99B001E9D4B /* PBXTargetDependency */,
+				17F90E982CE537D900E5B8CB /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				177CF9902CD3D99B001E9D4B /* BusAppUITests */,
+				17F90E992CE537D900E5B8CB /* BusAppUITests */,
 			);
 			name = BusAppUITests;
-			packageProductDependencies = (
-			);
 			productName = BusAppUITests;
-			productReference = 177CF98D2CD3D99B001E9D4B /* BusAppUITests.xctest */;
+			productReference = 17F90E962CE537D900E5B8CB /* BusAppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		177CF9612CD3D99A001E9D4B /* Project object */ = {
+		17F90E6A2CE537D700E5B8CB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1600;
 				LastUpgradeCheck = 1600;
-				ORGANIZATIONNAME = Involve;
 				TargetAttributes = {
-					177CF9682CD3D99A001E9D4B = {
+					17F90E712CE537D700E5B8CB = {
 						CreatedOnToolsVersion = 16.0;
 					};
-					177CF9822CD3D99B001E9D4B = {
+					17F90E8B2CE537D900E5B8CB = {
 						CreatedOnToolsVersion = 16.0;
-						TestTargetID = 177CF9682CD3D99A001E9D4B;
+						TestTargetID = 17F90E712CE537D700E5B8CB;
 					};
-					177CF98C2CD3D99B001E9D4B = {
+					17F90E952CE537D900E5B8CB = {
 						CreatedOnToolsVersion = 16.0;
-						TestTargetID = 177CF9682CD3D99A001E9D4B;
+						TestTargetID = 17F90E712CE537D700E5B8CB;
 					};
 				};
 			};
-			buildConfigurationList = 177CF9642CD3D99A001E9D4B /* Build configuration list for PBXProject "BusApp" */;
+			buildConfigurationList = 17F90E6D2CE537D700E5B8CB /* Build configuration list for PBXProject "BusApp" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 177CF9602CD3D99A001E9D4B;
+			mainGroup = 17F90E692CE537D700E5B8CB;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 177CF96A2CD3D99A001E9D4B /* Products */;
+			productRefGroup = 17F90E732CE537D700E5B8CB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				177CF9682CD3D99A001E9D4B /* BusApp */,
-				177CF9822CD3D99B001E9D4B /* BusAppTests */,
-				177CF98C2CD3D99B001E9D4B /* BusAppUITests */,
+				17F90E712CE537D700E5B8CB /* BusApp */,
+				17F90E8B2CE537D900E5B8CB /* BusAppTests */,
+				17F90E952CE537D900E5B8CB /* BusAppUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		177CF9672CD3D99A001E9D4B /* Resources */ = {
+		17F90E702CE537D700E5B8CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17DFCCCB2CE54A960075D8A9 /* Podfile in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17F90E8A2CE537D900E5B8CB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		177CF9812CD3D99B001E9D4B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		177CF98B2CD3D99B001E9D4B /* Resources */ = {
+		17F90E942CE537D900E5B8CB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -232,22 +291,142 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		28B8D0BF8ACDAE54BCD960CE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BusApp-BusAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4626C5950663D23693D76ACD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BusApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92A9A9C462363D1451EA20B5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BusAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B21D7CD5A63AC123E332827D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BusAppTests/Pods-BusAppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BusAppTests/Pods-BusAppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BusAppTests/Pods-BusAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B54A4407E39A5EBAC7CD8A58 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BusApp-BusAppUITests/Pods-BusApp-BusAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BusApp-BusAppUITests/Pods-BusApp-BusAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BusApp-BusAppUITests/Pods-BusApp-BusAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD6B3B151AC2D274532B7002 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BusApp/Pods-BusApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BusApp/Pods-BusApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BusApp/Pods-BusApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		177CF9652CD3D99A001E9D4B /* Sources */ = {
+		17F90E6E2CE537D700E5B8CB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		177CF97F2CD3D99B001E9D4B /* Sources */ = {
+		17F90E882CE537D900E5B8CB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		177CF9892CD3D99B001E9D4B /* Sources */ = {
+		17F90E922CE537D900E5B8CB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -257,38 +436,39 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		177CF9852CD3D99B001E9D4B /* PBXTargetDependency */ = {
+		17F90E8E2CE537D900E5B8CB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 177CF9682CD3D99A001E9D4B /* BusApp */;
-			targetProxy = 177CF9842CD3D99B001E9D4B /* PBXContainerItemProxy */;
+			target = 17F90E712CE537D700E5B8CB /* BusApp */;
+			targetProxy = 17F90E8D2CE537D900E5B8CB /* PBXContainerItemProxy */;
 		};
-		177CF98F2CD3D99B001E9D4B /* PBXTargetDependency */ = {
+		17F90E982CE537D900E5B8CB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 177CF9682CD3D99A001E9D4B /* BusApp */;
-			targetProxy = 177CF98E2CD3D99B001E9D4B /* PBXContainerItemProxy */;
+			target = 17F90E712CE537D700E5B8CB /* BusApp */;
+			targetProxy = 17F90E972CE537D900E5B8CB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		177CF9972CD3D99B001E9D4B /* Debug */ = {
+		17F90EA02CE537D900E5B8CB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07ADE61B7E50CC84DB41CCC8 /* Pods-BusApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = BusApp/BusApp.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = PQNHNX3F64;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BusApp/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = BusApp;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIRequiresFullScreen = YES;
-				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
@@ -297,37 +477,35 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Involve;
+				PRODUCT_BUNDLE_IDENTIFIER = Involve.BusApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		177CF9982CD3D99B001E9D4B /* Release */ = {
+		17F90EA12CE537D900E5B8CB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23879E835D1BD6E171BAD96E /* Pods-BusApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = BusApp/BusApp.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = PQNHNX3F64;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BusApp/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = BusApp;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIRequiresFullScreen = YES;
-				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
@@ -336,19 +514,16 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Involve;
+				PRODUCT_BUNDLE_IDENTIFIER = Involve.BusApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		177CF9992CD3D99B001E9D4B /* Debug */ = {
+		17F90EA22CE537D900E5B8CB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -411,7 +586,7 @@
 			};
 			name = Debug;
 		};
-		177CF99A2CD3D99B001E9D4B /* Release */ = {
+		17F90EA32CE537D900E5B8CB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -467,8 +642,9 @@
 			};
 			name = Release;
 		};
-		177CF99C2CD3D99B001E9D4B /* Debug */ = {
+		17F90EA52CE537D900E5B8CB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B6B8DF00D8F9D2F0471ED43 /* Pods-BusAppTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -486,8 +662,9 @@
 			};
 			name = Debug;
 		};
-		177CF99D2CD3D99B001E9D4B /* Release */ = {
+		17F90EA62CE537D900E5B8CB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A816B0D16E650AD004C399E5 /* Pods-BusAppTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -505,8 +682,9 @@
 			};
 			name = Release;
 		};
-		177CF99F2CD3D99B001E9D4B /* Debug */ = {
+		17F90EA82CE537D900E5B8CB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB189FD83C5CFCB19E603771 /* Pods-BusApp-BusAppUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -522,8 +700,9 @@
 			};
 			name = Debug;
 		};
-		177CF9A02CD3D99B001E9D4B /* Release */ = {
+		17F90EA92CE537D900E5B8CB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5C6413E120483C130F3E2CB /* Pods-BusApp-BusAppUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -542,43 +721,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		177CF9642CD3D99A001E9D4B /* Build configuration list for PBXProject "BusApp" */ = {
+		17F90E6D2CE537D700E5B8CB /* Build configuration list for PBXProject "BusApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				177CF9992CD3D99B001E9D4B /* Debug */,
-				177CF99A2CD3D99B001E9D4B /* Release */,
+				17F90EA22CE537D900E5B8CB /* Debug */,
+				17F90EA32CE537D900E5B8CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		177CF9962CD3D99B001E9D4B /* Build configuration list for PBXNativeTarget "BusApp" */ = {
+		17F90E9F2CE537D900E5B8CB /* Build configuration list for PBXNativeTarget "BusApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				177CF9972CD3D99B001E9D4B /* Debug */,
-				177CF9982CD3D99B001E9D4B /* Release */,
+				17F90EA02CE537D900E5B8CB /* Debug */,
+				17F90EA12CE537D900E5B8CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		177CF99B2CD3D99B001E9D4B /* Build configuration list for PBXNativeTarget "BusAppTests" */ = {
+		17F90EA42CE537D900E5B8CB /* Build configuration list for PBXNativeTarget "BusAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				177CF99C2CD3D99B001E9D4B /* Debug */,
-				177CF99D2CD3D99B001E9D4B /* Release */,
+				17F90EA52CE537D900E5B8CB /* Debug */,
+				17F90EA62CE537D900E5B8CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		177CF99E2CD3D99B001E9D4B /* Build configuration list for PBXNativeTarget "BusAppUITests" */ = {
+		17F90EA72CE537D900E5B8CB /* Build configuration list for PBXNativeTarget "BusAppUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				177CF99F2CD3D99B001E9D4B /* Debug */,
-				177CF9A02CD3D99B001E9D4B /* Release */,
+				17F90EA82CE537D900E5B8CB /* Debug */,
+				17F90EA92CE537D900E5B8CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 177CF9612CD3D99A001E9D4B /* Project object */;
+	rootObject = 17F90E6A2CE537D700E5B8CB /* Project object */;
 }

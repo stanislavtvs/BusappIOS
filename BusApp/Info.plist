@@ -2,22 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>CFBundleDocumentTypes</key>
-	<array>
-		<dict/>
-	</array>
-	<key>INIntentsRestrictedWhileLocked</key>
-	<array>
-		<string>Intent</string>
-	</array>
-	<key>INIntentsRestrictedWhileProtectedDataUnavailable</key>
-	<array>
-		<string>Intent</string>
-	</array>
-	<key>INIntentsSupported</key>
-	<array>
-		<string>Intent</string>
-	</array>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
@@ -40,9 +24,17 @@
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>remote-notification</string>
+		<string>audio</string>
+		<string>fetch</string>
 		<string>processing</string>
-		<string>location</string>
 		<string>external-accessory</string>
+		<string>location</string>
+		<string>nearby-interaction</string>
+		<string>bluetooth-central</string>
+	</array>
+	<key>UTImportedTypeDeclarations</key>
+	<array>
+		<dict/>
 	</array>
 </dict>
 </plist>

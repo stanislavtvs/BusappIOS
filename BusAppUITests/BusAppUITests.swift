@@ -2,7 +2,7 @@
 //  BusAppUITests.swift
 //  BusAppUITests
 //
-//  Created by Jordan on 10/31/24.
+//  Created by Jordan on 14.11.2024.
 //
 
 import XCTest
